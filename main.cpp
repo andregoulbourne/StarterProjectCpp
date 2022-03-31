@@ -71,6 +71,17 @@ string getHello(){
             cout << i;
         }
 
+        //including this here to tell it to go to the next line
+        cout<<endl;
+
+        //This is a while loop will behave like the for loop above
+        int i=0;
+        while(i<4){
+             cout << i;
+            i++;
+        }
+
+        cout<<endl;
     }
 
 
